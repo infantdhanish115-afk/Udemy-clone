@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Gabarito", sans-serif;
+}
+
+.navbar {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid black 1px;
+    gap: 10px;
+    align-items: center;
+}
+
+.navbar-s1__title {
+    color: blueviolet;
+}
+
+.navbar-s2 {
+    padding: 10px;
+    border: solid black 1px;
+    border-radius: 30px;
+    width: 60%;
+    display: flex;
+    gap: 10px;
+
+}
+
+.navbar-s2 input {
+    border: none;
+    font-size: 16px;
+    width: 100%;
+}
+
+.navbar-s2 input:focus {
+    outline: none;
+
+}
+
+.navbar-s3 {
+    display: flex;
+    gap: 10px;
+}
+
+.categories {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: solid black 1px;
+}
+
+.categories p {
+    background-color: bisque;
+    color: black;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.categories p:hover {
+    background-color: rgb(161, 215, 231);
+
+}
+
+.sale-image img {
+    width: 100%;
+    padding: 10px;
+    padding-top: 0;
+}
+
+.recomended {
+    padding: 10px;
+}
+
+.recomended__container {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cource-card {
+    width: 400px;
+    margin-top: 10px;
+}
+
+.cource-card img {
+    width: 100%
+}
+
+.topic {
+    padding: 10px;
+}
+
+.topic__container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.topic__container p {
+    border: solid gray 2px;
+    margin: 2px;
+    padding: 10px;
+    flex-basis: 25%;
+    flex-grow: 1;
+
+}
+
+.popular {
+    padding: 10px;
+}
+
+.popular__container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.popular__container img {
+    height: 250px;
+    width: 400px;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
+
+.footer__one {
+    display: flex;
+    gap: 20px;
+}
+
+.footer__two {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    align-items: center;
+}
+
+.footer__one p {
+    margin: 20px;
+}
+
+.recomended__container button {
+    background-color: yellow;
+    color: black;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+
+}
+
+.recomended__container button:hover {
+    background-color: darkgoldenrod;
+    color: white;
+}
+
+.recomended__container button p {
+    font-size: 12px;
+    font-weight: 20px;
+}
+
+.popular__container button {
+    background-color: yellow;
+    color: black;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.popular__container button:hover {
+    background-color: darkgoldenrod;
+    color: white;
+}
+
+.popular__container button p {
+    font-size: 12px;
+    font-weight: 20px;
+}
