@@ -94,7 +94,7 @@ body {
     background-color: transparent;
     transition: 1s;
     color: black;
-    border: solid bisque 2px;
+    border: solid rgb(255, 140, 0) 2px;
 
 }
 
